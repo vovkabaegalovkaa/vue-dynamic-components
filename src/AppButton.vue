@@ -14,5 +14,10 @@ export default {
         }
     },
     emits: ['action'],
+    methods: {
+        BtnLog(){
+            console.log("This is a method from MyBtn");
+        }
+    }
 }
 </script>
